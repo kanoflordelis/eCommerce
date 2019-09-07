@@ -15,7 +15,6 @@ import { ReactComponent as Logo } from '../../assets/crown.svg';
 import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => {
-	console.log(hidden);
 	return (
 		<div className="header">
 			<Link to="/" className="logo-container">
